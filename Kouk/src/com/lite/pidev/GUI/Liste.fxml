@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="ap" prefHeight="800.0" prefWidth="946.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lite.pidev.GUI.listeController">
+   <children>
+      <VBox layoutX="7.0" layoutY="335.0" prefHeight="130.0" prefWidth="67.0" spacing="15.0">
+         <children>
+            <Label text="ID">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label text="Name">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label text="Coefficient">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label text="Module">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+           
+         </children>
+      </VBox>
+      <VBox layoutX="82.0" layoutY="335.0" prefHeight="130.0" prefWidth="200.0" spacing="10.0">
+         <children>
+            <TextField fx:id="idField" />
+            <TextField fx:id="NameField" />
+            <TextField fx:id="CoefficientField" />
+            <TextField fx:id="ModuleField" />
+           
+         </children>
+      </VBox>
+      <HBox layoutX="89.0" layoutY="505.0" spacing="10.0">
+         <children>
+            <Button fx:id="insertButton" mnemonicParsing="false" onAction="#insertButton" prefHeight="30.0" prefWidth="60.0" text="Insert" />
+            <Button fx:id="updateButton" mnemonicParsing="false" onAction="#updateButton" prefHeight="30.0" prefWidth="60.0" text="Update" />
+            <Button fx:id="deleteButton" mnemonicParsing="false" onAction="#deleteButton" prefHeight="30.0" prefWidth="60.0" text="Delete" />
+         </children>
+      </HBox>
+      <TableView fx:id="TableView" layoutX="312.0" layoutY="261.0" prefHeight="341.0" prefWidth="473.0">
+        <columns>
+          <TableColumn fx:id="idColumn" prefWidth="35.0" text="ID" />
+          <TableColumn fx:id="NameColumn" prefWidth="152.0" text="Name" />
+            <TableColumn fx:id="CoefficientColumn" minWidth="4.0" prefWidth="102.0" text="Coefficient" />
+            <TableColumn fx:id="ModuleColumn" prefWidth="183.0" text="Module" />
+        </columns>
+      </TableView>
+      <Pane layoutX="-3.0" layoutY="54.0" prefHeight="157.0" prefWidth="954.0" style="-fx-background-color: #C0C0C0;">
+         <children>
+            <Label alignment="CENTER" layoutX="270.0" layoutY="48.0" prefHeight="51.0" prefWidth="441.0" text="Liste Des Matieres">
+               <font>
+                  <Font name="System Bold Italic" size="42.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

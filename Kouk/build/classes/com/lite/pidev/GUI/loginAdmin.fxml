@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorMere" prefHeight="666.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lite.pidev.GUI.loginAdminController">
+   
+    <children>
+        <AnchorPane id="AnchorPane" layoutY="-3.0" prefHeight="770.0" prefWidth="900.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-3.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+           
+
+    <children>
+        <MediaView fx:id="mediaView" fitHeight="677.0" fitWidth="900.0" />
+        <Pane layoutX="495.0" layoutY="80.0" prefHeight="502.0" prefWidth="377.0" style="-fx-background-color: WHITE; -fx-background-radius: 70px;">
+            <effect>
+                <DropShadow />
+            </effect>
+            <children>
+            
+                <JFXTextField fx:id="emailAdmin" focusColor="#a84080" layoutX="37.0" layoutY="202.0" prefHeight="25.0" prefWidth="301.0" promptText="Email" styleClass="login-bg" stylesheets="@../src/css/style.css" unFocusColor="MAGENTA" />
+                <JFXPasswordField fx:id="passAdmin" focusColor="#a84282" layoutX="35.0" layoutY="279.0" prefHeight="25.0" prefWidth="301.0" promptText="Password" styleClass="login-bg" stylesheets="@../src/css/style.css" unFocusColor="MAGENTA" />
+                <JFXButton fx:id="loginAdmin" buttonType="RAISED" layoutX="119.0" layoutY="351.0" onMouseClicked="#login" prefHeight="31.0" prefWidth="165.0" styleClass="btn-login" stylesheets="@../css/style.css" text="Connexion" />
+                <Circle fill="#f8f8f8" layoutX="194.0" layoutY="102.0" radius="59.0" stroke="BLACK" strokeType="INSIDE" />
+                <ImageView fitHeight="46.0" fitWidth="110.0" layoutX="139.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../ressourses/logo2.png" />
+                    </image>
+            
+                </ImageView>
+                  <Label fx:id="forgotpassword" layoutX="201.0" layoutY="405.0" onMouseClicked="#forgotpass" text="Mot de passe oublier ?">
+                     <font>
+                        <Font name="System Bold Italic" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="erreurLabel" layoutX="43.0" layoutY="436.0" prefHeight="38.0" prefWidth="301.0" />
+                  <ImageView fx:id="backButton" fitHeight="38.0" fitWidth="110.0" layoutX="29.0" layoutY="24.0" onMouseClicked="#backButton" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../ressourses/arrow-11.png" />
+                     </image>
+                  </ImageView>
+            
+            </children>
+        </Pane>
+        
+    </children>
+</AnchorPane>
+ </children>
+</AnchorPane>

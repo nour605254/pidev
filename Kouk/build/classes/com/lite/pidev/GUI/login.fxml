@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorMere" prefHeight="666.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lite.pidev.GUI.loginController">
+   
+    <children>
+        <AnchorPane id="AnchorPane" layoutY="-3.0" prefHeight="770.0" prefWidth="900.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-3.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+           
+
+    <children>
+        <MediaView fx:id="mediaView" fitHeight="677.0" fitWidth="900.0" />
+        <Pane fx:id="pane" layoutX="457.0" layoutY="27.0" prefHeight="623.0" prefWidth="416.0" style="-fx-background-color: WHITE; -fx-background-radius: 70px;">
+            <effect>
+                <DropShadow />
+            </effect>
+            <children>
+            
+                <JFXTextField fx:id="email" focusColor="#a84080" layoutX="49.0" layoutY="227.0" prefHeight="25.0" prefWidth="322.0" promptText="Email" styleClass="login-bg" stylesheets="@../css/style.css" unFocusColor="MAGENTA" />
+                <JFXPasswordField fx:id="pass" focusColor="#a84282" layoutX="49.0" layoutY="274.0" prefHeight="25.0" prefWidth="322.0" promptText="Password" styleClass="login-bg" stylesheets="@../css/style.css" unFocusColor="MAGENTA" />
+                <JFXButton fx:id="login" alignment="CENTER" buttonType="RAISED" layoutX="98.0" layoutY="373.0" onMouseClicked="#login" prefHeight="31.0" prefWidth="224.0" styleClass="btn-login" stylesheets="@../css/style.css" text="Connexion" />
+                <JFXButton fx:id="registerButton" alignment="CENTER" buttonType="RAISED" layoutX="98.0" layoutY="443.0" mnemonicParsing="false" onMouseClicked="#registerAction" prefHeight="31.0" prefWidth="224.0" styleClass="btn-Register" stylesheets="@../css/style.css" text="Register" />
+                <Circle fill="#f8f8f8" layoutX="218.0" layoutY="80.0" radius="62.0" stroke="BLACK" strokeType="INSIDE" />
+                <ImageView fitHeight="32.0" fitWidth="126.0" layoutX="162.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../ressourses/logo2.png" />
+                    </image>
+            
+                </ImageView>
+                  <Label fx:id="forgotpassword" layoutX="201.0" layoutY="327.0" onMouseClicked="#forgotpass" text="Mot de passe oublier ?">
+                     <font>
+                        <Font name="System Bold Italic" size="15.0" />
+                     </font>
+                  </Label>
+                  <Separator layoutX="15.0" layoutY="422.0" prefHeight="9.0" prefWidth="126.0" />
+                  <Label layoutX="198.0" layoutY="408.0" text="Ou">
+                     <font>
+                        <Font name="System Bold Italic" size="15.0" />
+                     </font>
+                  </Label>
+                  <Separator layoutX="233.0" layoutY="418.0" prefHeight="9.0" prefWidth="138.0" />
+                  <Label layoutX="39.0" layoutY="505.0" onMouseClicked="#createaccount" text="Vous n'avez pas de compte? Créer un compte">
+                     <font>
+                        <Font name="System Bold Italic" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblAdmin" layoutX="132.0" layoutY="536.0" onMouseClicked="#loginAdmin" text="Vous êtes un admin">
+                     <font>
+                        <Font name="System Bold Italic" size="15.0" />
+                     </font>
+                  </Label>
+                  <Group layoutX="77.0" layoutY="184.0" />
+                  <Pane layoutX="72.0" layoutY="167.0" prefHeight="32.0" prefWidth="277.0" />
+                  <Label fx:id="erreurLabel" layoutX="49.0" layoutY="569.0" prefHeight="41.0" prefWidth="335.0" />
+            
+            </children>
+        </Pane>
+        
+    </children>
+</AnchorPane>
+ </children>
+</AnchorPane>

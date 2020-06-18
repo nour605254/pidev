@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="ap" prefHeight="800.0" prefWidth="946.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lite.pidev.GUI.AffectationNController">
+   <children>
+      <VBox layoutX="6.0" layoutY="325.0" prefHeight="172.0" prefWidth="121.0" spacing="15.0">
+         <children>
+            <Label prefHeight="20.0" prefWidth="87.0" text="IDNote">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label text="NameMatiere">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label text="NomEnsiegnant">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="20.0" prefWidth="123.0" text="PrenomEnseignant">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="20.0" prefWidth="109.0" text="AnnéeScolaire">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="20.0" prefWidth="100.0" text="NomClasse">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+           
+         </children>
+      </VBox>
+      <VBox layoutX="144.0" layoutY="325.0" prefHeight="157.0" prefWidth="200.0" spacing="10.0">
+         <children>
+            <TextField fx:id="idField" />
+            <TextField fx:id="ccField" />
+            <TextField fx:id="testField" />
+            <TextField fx:id="examenField" />
+              <TextField fx:id="MoyenneGeneralField" />
+                            <TextField fx:id="NomEleveField" />
+              <TextField fx:id="PrenomEleveField" />
+              <TextField fx:id="NomMatiereField" />
+
+
+           
+         </children>
+      </VBox>
+      <HBox layoutX="144.0" layoutY="572.0" spacing="10.0" />
+      <TableView fx:id="TableView" layoutX="349.0" layoutY="261.0" prefHeight="341.0" prefWidth="597.0">
+        <columns>
+          <TableColumn fx:id="idColumn" prefWidth="72.0" text="IDNote" />
+          <TableColumn fx:id="CcColumn" prefWidth="109.0" text="cc" />
+                      <TableColumn fx:id="TestColumn" minWidth="4.0" prefWidth="101.0" text="test" />
+
+            <TableColumn fx:id="ExamenColumn" minWidth="4.0" prefWidth="101.0" text="examen" />
+            <TableColumn fx:id="ModuleColumn" prefWidth="120.0" text="MoyenneGeneral" />
+            <TableColumn fx:id="NomEleveColumn" minWidth="4.0" prefWidth="101.0" text="NomEleve" />
+              <TableColumn fx:id="PrenomEleveColumn" minWidth="4.0" prefWidth="101.0" text="PrenomEleve" />
+            <TableColumn fx:id="NomMatiereColumn" minWidth="4.0" prefWidth="101.0" text="NomMatiere" />
+
+
+            <TableColumn prefWidth="97.0" text="Anné" />
+            <TableColumn prefWidth="123.0" text="NomClasse" />
+        </columns>
+      </TableView>
+      <Pane layoutX="-3.0" layoutY="54.0" prefHeight="157.0" prefWidth="954.0" style="-fx-background-color: #C0C0C0;">
+         <children>
+            <Label alignment="CENTER" layoutX="270.0" layoutY="48.0" prefHeight="62.0" prefWidth="515.0" text="Affectation Des Notes">
+               <font>
+                  <Font name="System Bold Italic" size="42.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button fx:id="affectButton" layoutX="167.0" layoutY="565.0" mnemonicParsing="false"  onMouseClicked="#AffectButton" prefHeight="30.0" prefWidth="127.0" text="Affecter" />
+   </children>
+</AnchorPane>

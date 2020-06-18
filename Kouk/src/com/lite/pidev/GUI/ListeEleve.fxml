@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="ap" prefHeight="800.0" prefWidth="946.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lite.pidev.GUI.listeController">
+   <children>
+      <VBox layoutX="6.0" layoutY="325.0" prefHeight="172.0" prefWidth="121.0" spacing="15.0">
+         <children>
+            <Label prefHeight="20.0" prefWidth="87.0" text="IDEleve">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="20.0" prefWidth="103.0" text="NomEleve">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label text="PreomEleve">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="20.0" prefWidth="123.0" text="Sexe">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="20.0" prefWidth="109.0" text="Age">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="20.0" prefWidth="100.0" text="Telephone">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+           
+         </children>
+      </VBox>
+      <VBox layoutX="144.0" layoutY="325.0" prefHeight="157.0" prefWidth="200.0" spacing="10.0">
+         <children>
+            <TextField fx:id="idField" />
+            <TextField fx:id="NameField" />
+            <TextField fx:id="CoefficientField" />
+            <TextField fx:id="ModuleField" />
+           
+         </children>
+      </VBox>
+      <HBox layoutX="144.0" layoutY="572.0" spacing="10.0" />
+      <TableView fx:id="TableView" layoutX="349.0" layoutY="261.0" prefHeight="341.0" prefWidth="597.0">
+        <columns>
+          <TableColumn fx:id="idColumn" prefWidth="58.0" text="IDEleve" />
+          <TableColumn fx:id="NameColumn" prefWidth="118.0" text="NomEleve" />
+            <TableColumn fx:id="CoefficientColumn" minWidth="4.0" prefWidth="127.0" text="PreomEleve" />
+            <TableColumn fx:id="ModuleColumn" prefWidth="106.0" text="Sexe" />
+            <TableColumn prefWidth="68.0" text="Age" />
+            <TableColumn prefWidth="145.0" text="Telephone" />
+        </columns>
+      </TableView>
+      <Pane layoutX="-3.0" layoutY="54.0" prefHeight="157.0" prefWidth="954.0" style="-fx-background-color: #C0C0C0;">
+         <children>
+            <Label alignment="CENTER" layoutX="270.0" layoutY="48.0" prefHeight="62.0" prefWidth="515.0" text="Liste des éleves ">
+               <font>
+                  <Font name="System Bold Italic" size="42.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button fx:id="affectButton" layoutX="167.0" layoutY="565.0" mnemonicParsing="false" onAction="#insertButton" onMouseDragEntered="#AffectButton" prefHeight="30.0" prefWidth="127.0" text="AffecterNote" />
+   </children>
+</AnchorPane>

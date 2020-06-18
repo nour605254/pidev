@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/com/lite/pidev/GUI/loginController.java</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/com/lite/pidev/GUI/PasswordForgottenController.java</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/com/lite/pidev/Utils/UserManager.java</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/com/lite/pidev/entities/Email.java</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/com/lite/pidev/Utils/SectionManager.java</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/com/lite/pidev/GUI/AffectationController.java</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/com/lite/pidev/entities/Matiere.java</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/com/lite/pidev/GUI/loginAdminController.java</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/com/lite/pidev/Service/MatiereService.java</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/com/lite/pidev/GUI/AaController.java</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/com/lite/pidev/GUI/Liste.fxml</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/com/lite/pidev/entities/User.java</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/com/lite/pidev/GUI/InscriController.java</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/lite.properties</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/com/lite/pidev/Utils/MyConnection.java</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/com/lite/pidev/css/style.css</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/com/lite/pidev/GUI/AffectationNController.java</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/com/lite/pidev/yow/Yow.java</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/com/lite/pidev/GUI/listeController.java</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/com/lite/pidev/GUI/login.fxml</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/com/lite/pidev/GUI/AffectationN.fxml</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/com/lite/pidev/interfaces/Imatiere.java</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/com/lite/pidev/GUI/Aa.fxml</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/com/lite/pidev/GUI/MailController.java</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/com/lite/pidev/GUI/Acceuil.fxml</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/com/lite/pidev/GUI/SMSSender.java</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/com/lite/pidev/Service/EmailService.java</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/com/lite/pidev/GUI/AccueilController.java</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/com/lite/pidev/GUI/Inscription.fxml</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/com/lite/pidev/Service/UserService.java</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/com/lite/pidev/GUI/Affectation.fxml</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/com/lite/pidev/Utils/Section.java</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/Kouk/src/com/lite/pidev/interfaces/IUserService.java</file>
+        </group>
+    </open-files>
+</project-private>
